@@ -19,7 +19,7 @@ session_destroy();
 }
     </style>
   </head>
-  <body style="background: -webkit-linear-gradient(left, #3931af, #00c6ff);color:white;padding-top:100px;text-align:center;">
+  <body style="background-color: #F0A500">
     <h3>You have logged out.</h3><br><br>
     <a href="index.php" class="btn btn-outline-light">Back to Home Page</a>
     <!-- Optional JavaScript -->

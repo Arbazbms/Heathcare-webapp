@@ -50,11 +50,11 @@ if(isset($_POST['docsub1']))
     <link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" style="background-color: #F0A500">
 
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <a class="navbar-brand" href="#"><i class="fa fa-user-plus" aria-hidden="true"></i> Global Hospital </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <a class="navbar-brand" href="#" style="background-color: #F0A500">HealthCare Management System </a>
+  <button class=" navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
@@ -76,9 +76,9 @@ if(isset($_POST['docsub1']))
 };
   </script>
 
-  <style >
+  <style>
     .bg-primary {
-    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+    background:green;
 }
 
 .col-md-4{
@@ -88,11 +88,11 @@ if(isset($_POST['docsub1']))
 .list-group-item.active {
     z-index: 2;
     color: #fff;
-    background-color: #342ac1;
-    border-color: #007bff;
+    background-color: green;
+    border-color: green;
 }
 .text-primary {
-    color: #342ac1!important;
+    color: green!important;
 }
 
 #cpass {
@@ -104,15 +104,15 @@ if(isset($_POST['docsub1']))
 }
 
 .btn-primary{
-  background-color: #3c50c1;
-  border-color: #3c50c1;
+  background-color: green;
+  border-color: green;
 }
   </style>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
      <ul class="navbar-nav mr-auto">
        <li class="nav-item">
-        <a class="nav-link" href="logout1.php"><i class="fa fa-sign-out" aria-hidden="true"></i>Logout</a>
+        <a class="nav-link" href="logout1.php" style="background-color: #F0A500" ><i class="fa fa-sign-out" aria-hidden="true"></i>Logout</a>
       </li>
        <li class="nav-item">
         <a class="nav-link" href="#"></a>
@@ -129,7 +129,7 @@ if(isset($_POST['docsub1']))
    <div class="container-fluid" style="margin-top:50px;">
     <h3 style = "margin-left: 40%; padding-bottom: 20px;font-family: 'IBM Plex Sans', sans-serif;"> WELCOME RECEPTIONIST </h3>
     <div class="row">
-  <div class="col-md-4" style="max-width:25%;margin-top: 3%;">
+  <div class="col-md-4" style="max-width:25%;margin-top: 3%;" style="background-color: #F0A500"> 
     <div class="list-group" id="list-tab" role="tablist">
       <a class="list-group-item list-group-item-action active" id="list-dash-list" data-toggle="list" href="#list-dash" role="tab" aria-controls="home">Dashboard</a>
       <a class="list-group-item list-group-item-action" href="#list-doc" id="list-doc-list"  role="tab"    aria-controls="home" data-toggle="list">Doctor List</a>
@@ -152,7 +152,7 @@ if(isset($_POST['docsub1']))
               <div class="row">
                <div class="col-sm-4">
                   <div class="panel panel-white no-radius text-center">
-                    <div class="panel-body">
+                    <div class="panel-body" style="background-color: #F0A500">
                       <span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-users fa-stack-1x fa-inverse"></i> </span>
                       <h4 class="StepTitle" style="margin-top: 5%;">Doctor List</h4>
                       <script>
@@ -171,7 +171,7 @@ if(isset($_POST['docsub1']))
 
                 <div class="col-sm-4" style="left: -3%">
                   <div class="panel panel-white no-radius text-center">
-                    <div class="panel-body" >
+                    <div class="panel-body" style="background-color: #F0A500">
                       <span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-users fa-stack-1x fa-inverse"></i> </span>
                       <h4 class="StepTitle" style="margin-top: 5%;">Patient List</h4>
                       
@@ -187,7 +187,7 @@ if(isset($_POST['docsub1']))
 
                 <div class="col-sm-4">
                   <div class="panel panel-white no-radius text-center">
-                    <div class="panel-body" >
+                    <div class="panel-body" style="background-color: #F0A500" >
                       <span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-paperclip fa-stack-1x fa-inverse"></i> </span>
                       <h4 class="StepTitle" style="margin-top: 5%;">Appointment Details</h4>
                     
@@ -204,7 +204,7 @@ if(isset($_POST['docsub1']))
                 <div class="row">
                 <div class="col-sm-4" style="left: 13%;margin-top: 5%;">
                   <div class="panel panel-white no-radius text-center">
-                    <div class="panel-body" >
+                    <div class="panel-body"  style="background-color: #F0A500">
                       <span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-list-ul fa-stack-1x fa-inverse"></i> </span>
                       <h4 class="StepTitle" style="margin-top: 5%;">Prescription List</h4>
                     
@@ -218,9 +218,9 @@ if(isset($_POST['docsub1']))
                 </div>
 
 
-                <div class="col-sm-4" style="left: 18%;margin-top: 5%">
+                <div class="col-sm-4" style="left: 18%;margin-top: 5%" style="background-color: #F0A500">
                   <div class="panel panel-white no-radius text-center">
-                    <div class="panel-body" >
+                    <div class="panel-body"  style="background-color: #F0A500">
                       <span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-plus fa-stack-1x fa-inverse"></i> </span>
                       <h4 class="StepTitle" style="margin-top: 5%;">Manage Doctors</h4>
                     
@@ -259,8 +259,8 @@ if(isset($_POST['docsub1']))
         <div class="col-md-10"><input type="text" name="doctor_contact" placeholder="Enter Email ID" class = "form-control"></div>
         <div class="col-md-2"><input type="submit" name="doctor_search_submit" class="btn btn-primary" value="Search"></div></div>
       </form>
-    </div>
-              <table class="table table-hover">
+    </div style="background-color: #F0A500">
+              <table class="table table-hover" style="background-color: #F0A500">
                 <thead>
                   <tr>
                     <th scope="col">Doctor Name</th>
@@ -309,7 +309,7 @@ if(isset($_POST['docsub1']))
       </form>
     </div>
         
-              <table class="table table-hover">
+              <table class="table table-hover" style="background-color: #F0A500">
                 <thead>
                   <tr>
                   <th scope="col">Patient ID</th>
@@ -362,7 +362,7 @@ if(isset($_POST['docsub1']))
         
     
         
-              <table class="table table-hover">
+              <table class="table table-hover" style="background-color: #F0A500">
                 <thead>
                   <tr>
                   <th scope="col">Doctor</th>
@@ -431,7 +431,7 @@ if(isset($_POST['docsub1']))
       </form>
     </div>
         
-              <table class="table table-hover">
+              <table class="table table-hover" style="background-color: #F0A500">
                 <thead>
                   <tr>
                   <th scope="col">Appointment ID</th>
@@ -494,7 +494,7 @@ if(isset($_POST['docsub1']))
 
 <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">...</div>
 
-      <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+      <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list" style="background-color: #F0A500">
         <form class="form-group" method="post" action="admin-panel1.php">
           <div class="row">
                   <div class="col-md-4"><label>Doctor Name:</label></div>
@@ -549,7 +549,7 @@ if(isset($_POST['docsub1']))
       </form>
     </div>
         
-              <table class="table table-hover">
+              <table class="table table-hover" style="background-color: #F0A500">
                 <thead>
                   <tr>
                     <th scope="col">User Name</th>
